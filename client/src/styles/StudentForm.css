@@ -1,0 +1,123 @@
+/* Page layout */
+.page-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+  background: #f4f6fa;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card layout */
+.form-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 600px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Grid layout */
+.form-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 18px;
+}
+
+/* Form groups */
+.form-group label {
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  font-size: 15px;
+  transition: 0.2s;
+  background: #f7f8fc;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+  outline: none;
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+  background: #fff;
+}
+
+/* Country + Flag Row */
+.country-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  width: 100%;
+}
+
+/* The select should fill space even when the flag exists */
+.country-flex select {
+  flex-grow: 1;
+}
+
+/* Flag styling */
+.flag {
+  width: 45px;
+  height: 30px;
+  border-radius: 4px;
+  object-fit: cover;
+  border: 1px solid #ccc;
+  background: #fff;
+  flex-shrink: 0;
+}
+
+/* Radio row */
+.radio-row {
+  display: flex;
+  gap: 30px;
+  margin-top: 5px;
+}
+
+/* Submit button */
+.submit-btn {
+  margin-top: 10px;
+  padding: 12px;
+  width: 100%;
+  border: none;
+  background: #4a90e2;
+  color: white;
+  font-size: 17px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.submit-btn:hover {
+  background: #2f73c8;
+}
+
+/* Responsive adjustments */
+@media (max-width: 650px) {
+  .form-card {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .flag {
+    width: 40px;
+    height: 26px;
+  }
+}

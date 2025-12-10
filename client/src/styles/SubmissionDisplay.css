@@ -1,0 +1,130 @@
+/* Page Layout */
+.submitted-page {
+  display: flex;
+  justify-content: center;
+  padding: 40px 10px;
+  background: #f4f6fa;
+  min-height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Card Styling */
+.submitted-card {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  width: 600px;
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.submitted-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+/* PDF Download Button */
+.pdf-btn {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+  margin-right: 10px;    /* Added spacing between buttons */
+  transition: background 0.2s ease-in-out;
+}
+
+.pdf-btn:hover {
+  background: #1f8b39;
+}
+
+/* 📧 EMAIL BUTTON */
+.email-btn {
+  display: inline-block;
+  background: #007bff;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 15px;
+  margin-bottom: 20px;
+  transition: background 0.2s ease-in-out;
+}
+
+.email-btn:hover {
+  background: #0063d6;
+}
+
+/* Grid Layout */
+.details-grid {
+  display: grid;
+  gap: 15px;
+}
+
+/* Each detail row */
+.detail-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: #f8f9fc;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+}
+
+.label {
+  font-weight: 600;
+  color: #444;
+}
+
+.value {
+  color: #222;
+}
+
+/* Country flag row */
+.country-row {
+  align-items: center;
+  gap: 10px;
+}
+
+.submitted-flag {
+  width: 50px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  margin-left: 12px;
+}
+
+/* Loading screen */
+.loading-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  font-size: 18px;
+  color: #333;
+}
+
+.loader {
+  border: 4px solid #ddd;
+  border-top: 4px solid #4a90e2;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 0.7s linear infinite;
+  margin-bottom: 10px;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}

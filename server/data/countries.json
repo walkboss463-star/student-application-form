@@ -1,0 +1,67 @@
+[
+  {
+    "name": "India",
+    "code": "IN",
+    "dial_code": "+91",
+    "states": [
+      { "name": "Gujarat", "cities": ["Ahmedabad", "Surat", "Vadodara"] },
+      { "name": "Maharashtra", "cities": ["Mumbai", "Pune", "Nagpur"] },
+      { "name": "Karnataka", "cities": ["Bengaluru", "Mangaluru", "Mysore"] }
+    ]
+  },
+  {
+    "name": "United States",
+    "code": "US",
+    "dial_code": "+1",
+    "states": [
+      { "name": "California", "cities": ["Los Angeles", "San Francisco", "San Diego"] },
+      { "name": "Texas", "cities": ["Houston", "Dallas", "Austin"] },
+      { "name": "New York", "cities": ["New York City", "Buffalo", "Rochester"] }
+    ]
+  },
+  {
+    "name": "United Kingdom",
+    "code": "GB",
+    "dial_code": "+44",
+    "states": [
+      { "name": "England", "cities": ["London", "Manchester", "Bristol"] },
+      { "name": "Scotland", "cities": ["Edinburgh", "Glasgow", "Aberdeen"] }
+    ]
+  },
+  {
+    "name": "Canada",
+    "code": "CA",
+    "dial_code": "+1",
+    "states": [
+      { "name": "Ontario", "cities": ["Toronto", "Ottawa", "Hamilton"] },
+      { "name": "British Columbia", "cities": ["Vancouver", "Victoria", "Kelowna"] }
+    ]
+  },
+  {
+    "name": "Australia",
+    "code": "AU",
+    "dial_code": "+61",
+    "states": [
+      { "name": "New South Wales", "cities": ["Sydney", "Newcastle", "Wollongong"] },
+      { "name": "Victoria", "cities": ["Melbourne", "Geelong", "Ballarat"] }
+    ]
+  },
+  {
+    "name": "Germany",
+    "code": "DE",
+    "dial_code": "+49",
+    "states": [
+      { "name": "Bavaria", "cities": ["Munich", "Nuremberg", "Augsburg"] },
+      { "name": "Berlin", "cities": ["Berlin"] }
+    ]
+  },
+  {
+    "name": "United Arab Emirates",
+    "code": "AE",
+    "dial_code": "+971",
+    "states": [
+      { "name": "Dubai", "cities": ["Dubai City"] },
+      { "name": "Abu Dhabi", "cities": ["Abu Dhabi City"] }
+    ]
+  }
+]
